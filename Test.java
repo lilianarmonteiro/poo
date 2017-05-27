@@ -9,10 +9,11 @@ import java.util.HashMap;
 import java.util.List;
 
 /**
- * Write a description of class Test here.
+ * Classe que testa todas as funções criadas no projeto.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Isabel Sofia Pereira
+ * @author Liliana Monteiro
+ * @author Maria de La Salete Teixeira
  */
 public class Test
 {
