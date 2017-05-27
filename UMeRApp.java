@@ -8,16 +8,35 @@ import java.io.FileNotFoundException;
 import java.io.*; //Classe exceção
 
 /**
- * Escreva a descrição da classe UMeRApp aqui.
+ * Classe que cria o menu da aplicação UMeRApp, onde estão definidos os métodos que gerem a interação entre a aplicação e os utilizadores
  * 
- * @author (seu nome) 
- * @version (número de versão ou data)
+ * @author Isabel Sofia Pereira
+ * @author Liliana Monteiro
+ * @author Maria de La Salete Teixeira
  */
 public class UMeRApp
 {
+   /**
+    * Variáveis de Instância
+    */
+   
+   /**
+    * Variável que contém todos os dados e métodos da aplicação
+    */
    private UMeR log;
+   
+   /**
+    * Menu interativo
+    */
    private Menu menu;
    
+   /**
+    * Construtores
+    */
+   
+   /**
+    * Construtor vazio que cria uma instância UMeRApp e insere as opções do menu principal
+    */
    public UMeRApp(){
 
        try{
@@ -38,6 +57,13 @@ public class UMeRApp
        menu = new Menu(s);
    }
    
+   /**
+    * Métodos de Instância
+    */
+   
+   /**
+    * Método que inicia a aplicação no menu principal
+    */
    public void run(){
        int op = 0;
        
@@ -69,7 +95,10 @@ public class UMeRApp
            System.out.println(e.getMessage());
        }
    }
-
+   
+   /**
+    * Método que adiciona um cliente à aplicação, requisitando a inserção dos seus dados
+    */
    public void adicionaCliente(){
        Scanner input = new Scanner(System.in);
        String nome, email, password, confirmarPassword, morada, nascimento;
@@ -108,9 +137,12 @@ public class UMeRApp
        input.close();
    }
    
+   /**
+    * Método que adiciona um motorista independente à aplicação, requisitando a inserção dos seus dados e dos dados do seu veículo
+    */
    public void adicionaMotoristaIndependente(){
        Scanner input = new Scanner(System.in);
-       String nome, email, password, morada, nascimento, aux, tipoVeiculo, matricula;
+       String nome, email, password, confirmarPassword, morada, nascimento, aux, tipoVeiculo, matricula;
        boolean disponibilidade;
        int lugares;
        double velocidadeMedia, precoMedio, x, y;
@@ -122,8 +154,16 @@ public class UMeRApp
            System.out.println("Email: ");
            email = input.nextLine();
        
-           System.out.println("Password: ");
-           password = input.nextLine();
+          do{
+               System.out.println("Password: ");
+               password = input.nextLine();
+           
+               System.out.println("Confirmar Password: ");
+               confirmarPassword = input.nextLine();
+           
+               if(!password.equals(confirmarPassword)) System.out.println("Password incorreta.");
+           }
+           while(!password.equals(confirmarPassword));
        
            System.out.println("Morada: ");
            morada = input.nextLine();
@@ -174,6 +214,9 @@ public class UMeRApp
        input.close();
    }
    
+   /**
+    * Menu das empresas de táxis, onde é possível registar uma nova empresa, um novo veículo ou um novo motorista numa empresa específica
+    */
    public void areaEmpresa(){
        String s[] = {"Novo Registo Empresa", "Novo Registo Veiculo", "Novo Registo Motorista"};
        Menu m = new Menu(s);
@@ -194,7 +237,11 @@ public class UMeRApp
        }
        while(op != 0);
    }
-
+   
+   
+   /**
+    * Método que adiciona uma nova empresa de táxis à aplicação, requisitando a inserção dos dados da empresa
+    */
    public void adicionaEmpresa(){
        Scanner input = new Scanner(System.in);
        String nomeEmpresa;
@@ -214,6 +261,10 @@ public class UMeRApp
        input.close();
    }
    
+   
+   /**
+    * Método que adiciona um veículo numa determinada empresa de táxis, requisitando a inserção do nome da empresa desejada e dos dados do veículo
+    */
    public void adicionaVeiculo(){
        Scanner input = new Scanner(System.in);
        String nomeEmpresa, aux, tipoVeiculo, matricula;
@@ -266,10 +317,13 @@ public class UMeRApp
        
        input.close();
    }
-
+   
+    /**
+    * Método que adiciona um motorita numa determinada empresa de táxis, requisitando a inserção do nome da empresa desejada e dos dados do motorista
+    */
    public void adicionaMotorista(){
        Scanner input = new Scanner(System.in);
-       String nomeEmpresa, nome, email, password, morada, nascimento, aux, tipoVeiculo, matricula;
+       String nomeEmpresa, nome, email, password, confirmarPassword, morada, nascimento, aux, tipoVeiculo, matricula;
        boolean disponibilidade;
        
        try{
@@ -282,8 +336,16 @@ public class UMeRApp
            System.out.println("Email: ");
            email = input.nextLine();
        
-           System.out.println("Password: ");
-           password = input.nextLine();
+           do{
+               System.out.println("Password: ");
+               password = input.nextLine();
+           
+               System.out.println("Confirmar Password: ");
+               confirmarPassword = input.nextLine();
+           
+               if(!password.equals(confirmarPassword)) System.out.println("Password incorreta.");
+           }
+           while(!password.equals(confirmarPassword));
        
            System.out.println("Morada: ");
            morada = input.nextLine();
@@ -308,7 +370,10 @@ public class UMeRApp
        
        input.close();
    }
-
+   
+    /**
+    * Método que realiza o login de um utilizador na aplicação, requisitando a inserção do seu email e password
+    */
    public void confirmarLogin(){
        Scanner input = new Scanner(System.in);
        String email, password;
@@ -333,8 +398,13 @@ public class UMeRApp
        input.close();
    }
    
+   /**
+    * Menu da área pessoal de um cliente, com as opções que este pode efetuar na aplicação
+    * 
+    * @param c    Cliente com sessão iniciada na aplicação
+    */
    public void areaPessoalCliente(Cliente c){
-       String s[] = {"Requisitar Viagem", "Histórico de Viagens", "Listagem de Veículos Parceiros da UMeR", "Empresas", "Top 10 clientes mais fieis", "Top 5 motoristas com maiores desvios de preços", "Logout", "Eliminar Perfil"};
+       String s[] = {"Requisitar Viagem", "Histórico de Viagens", "Listagem de Veículos Parceiros da UMeR", "Empresas", "Top 10 clientes mais fieis", "Top 5 motoristas com maiores desvios de preços", "Eliminar Perfil"};
        Menu m = new Menu(s);
        int opcaoTS = 0;
        int opcaoEP = 0;
@@ -357,17 +427,21 @@ public class UMeRApp
                        break;
                case 6: top5Motoristas();
                        break;
-               case 7: opcaoTS = terminarSessao();
-                       break;
-               case 8: opcaoEP = eliminarPerfil(c);
+               case 7: opcaoEP = eliminarPerfil(c);
                        break;
            }
        }
        while(op != 0 && opcaoTS==0 && opcaoEP == 0);
    }
    
+   
+   /**
+    * Menu da área pessoal de um motorista independente, com as opções que este pode efetuar na aplicação
+    * 
+    * @param mi    Motorista independente com sessão iniciada na aplicação
+    */
    public void areaPessoalMotoristaIndependente(MotoristaIndependente mi){
-       String s[] = {"Histórico de Viagens", "Total faturado", "Alterar Veículo", "Alterar Localização Veiculo", "Alterar Disponibilidade", "Top 10 clientes mais fieis", "Top 5 motoristas com maiores desvios de preços", "Logout", "Eliminar perfil"};
+       String s[] = {"Histórico de Viagens", "Total faturado", "Alterar Veículo", "Alterar Localização Veiculo", "Alterar Disponibilidade", "Top 10 clientes mais fieis", "Top 5 motoristas com maiores desvios de preços", "Eliminar perfil"};
        Menu m = new Menu(s);
        int opcaoTS = 0;
        int opcaoEP = 0;
@@ -392,17 +466,21 @@ public class UMeRApp
                        break;
                case 7: top5Motoristas();
                        break;
-               case 8: opcaoTS = terminarSessao();
-                       break;
-               case 9: opcaoEP = eliminarPerfil(mi);
+               case 8: opcaoEP = eliminarPerfil(mi);
                        break;
            }
        }
        while(op != 0 && opcaoTS==0 && opcaoEP == 0);
    }
    
+   
+   /**
+    * Menu da área pessoal de um motorita de uma empresa de táxis, com as opções que este pode efetuar na aplicação
+    * 
+    * @param mot    Motorista com sessão iniciada na aplicação
+    */
    public void areaPessoalMotorista(Motorista mot){
-       String s[] = {"Histórico de Viagens", "Alterar Disponibilidade", "Empresas", "Top 10 clientes mais fieis", "Top 5 motoristas com maiores desvios de preços", "Logout", "Eliminar perfil"};
+       String s[] = {"Histórico de Viagens", "Alterar Disponibilidade", "Empresas", "Top 10 clientes mais fieis", "Top 5 motoristas com maiores desvios de preços", "Eliminar perfil"};
        Menu m = new Menu(s);
        int opcaoTS = 0;
        int opcaoEP = 0;
@@ -423,15 +501,18 @@ public class UMeRApp
                        break;
                case 5: top5Motoristas();
                        break;
-               case 6: opcaoTS = terminarSessao();
-                       break;
-               case 7: opcaoEP = eliminarPerfil(mot);
+               case 6: opcaoEP = eliminarPerfil(mot);
                        break;
            }
        }
        while(op != 0 && opcaoTS==0 && opcaoEP == 0);
    }
    
+   /**
+    * Menu que apresenta ao cliente as opções que ele pode escolher na realização de uma nova viagem
+    * 
+    * @param c    Cliente que requisitou uma viagem
+    */
    public void novaViagem(Cliente c){
        String[] s = {"Escolher o veículo mais próximo.", "Escolher um veículo UMeR específico.", "Escolher um veículo empresarial específico."};
        Menu m = new Menu(s);
@@ -452,7 +533,12 @@ public class UMeRApp
        }
        while(opt != 0);
    }
-
+   
+   /**
+    * Método que disponibiliza a um utilizador o seu histórico de viagens no período de tempo considerado
+    * 
+    * @param u    Utilizador que requisitou o seu histórico
+    */
    public void acederHistorico(Utilizador u){
        Scanner input = new Scanner(System.in);
        int diaI, mesI, anoI, anoF, mesF, diaF;
@@ -479,11 +565,12 @@ public class UMeRApp
        input.close();
    }
    
-   public int terminarSessao(){
-       System.out.println("Obrigada por utilizar a nossa aplicação, esperamos que volte brevemente.");
-       return 1;
-   }
-   
+   /**
+    * Método que elimina o perfil de um determinado utilizador da aplicação 
+    * 
+    * @param u    Utilizador com sessão iniciada
+    * @return   Retorna 1 para permitir voltar ao menu principal, caso o perfil não tenha sido possível eliminar o perfil do utilizador retorna 0
+    */
    public int eliminarPerfil(Utilizador u){
        Scanner input = new Scanner(System.in);
        String aux, password;
@@ -513,6 +600,11 @@ public class UMeRApp
        return 0;
    }
    
+   /**
+    * Método que seleciona o veículo mais próximo da localização do cliente para a realização de uma viagem
+    * 
+    * @param c    Cliente com sessão iniciada
+    */
    public void viagemVeiculoMaisProximo(Cliente c){
        Scanner input = new Scanner(System.in);
        double x, y;
@@ -556,6 +648,11 @@ public class UMeRApp
        input.close();
    }
    
+   /**
+    * Método que seleciona o veículo específico de um motorista independente requisitado pelo cliente para a realização de uma viagem
+    * 
+    * @param c    Cliente com sessão iniciada
+    */
    public void viagemVeiculoEspecificoMI(Cliente c){
        Scanner input = new Scanner(System.in);
        String matricula;
@@ -585,6 +682,11 @@ public class UMeRApp
        input.close();
    }
    
+   /**
+    * Método que seleciona o veículo específico de uma empresa de táxis requisitado pelo cliente para a realização de uma viagem
+    * 
+    * @param c    Cliente com sessão iniciada
+    */
    public void viagemVeiculoEspecificoEmpresa(Cliente c){
        Scanner input = new Scanner(System.in);
        String matricula;
@@ -614,6 +716,13 @@ public class UMeRApp
        input.close();
    }
    
+   /**
+    * Método que efetua uma viagem requisitada pelo cliente
+    * 
+    * @param c    Cliente que requisitou a viagem
+    * @param m    Motorista que vai realizar a viagem
+    * @param v    Veículo usado na viagem
+    */
    public void viagem(Cliente c, Motorista m, Veiculo v){
        Scanner input = new Scanner(System.in);
        double xp, yp, xd, yd, tempoEstimado, custoEstimado, tempoReal, custoReal;
@@ -669,11 +778,19 @@ public class UMeRApp
        input.close();
    }
    
+   /**
+    * Método que fornece ao cliente uma lista com todos os veículos de motorista independentes registados na aplicação
+    */
    public void listaVeiculosUMeR(){
        List<Veiculo> veiculos = log.listagemVeiculosMI();
        System.out.println("De momento estão inscritos na nossa aplicação os seguintes veículos:\n"+veiculos.toString());
    }
    
+   /**
+    * Método que fornece a um motorista independente o seu total faturado num determinado período de tempo
+    * 
+    * @param mi   Motorista independente com sessão iniciada
+    */
    public void totalFaturado(MotoristaIndependente mi){
        Scanner input = new Scanner(System.in);
        int diaI, mesI, anoI, anoF, mesF, diaF;
@@ -701,6 +818,12 @@ public class UMeRApp
        input.close();
    }
    
+   /**
+    * Método que permite a um motorista independente alterar o seu veículo, requisitando a inserção dos dados do novo veículo
+    * 
+    * @param mi   Motorista independente com sessão iniciada
+    * @return   O motorista Independente
+    */
    public MotoristaIndependente alterarVeiculo(MotoristaIndependente mi){
        Scanner input = new Scanner(System.in);
        String aux, tipoVeiculo, matricula;
@@ -748,6 +871,12 @@ public class UMeRApp
        return mi;
    }
    
+   /**
+    * Método que permite a um motorista independente alterar a localização do seu veículo
+    * 
+    * @param mi   Motorista independente com sessão iniciada
+    * @return   O motorista Independente
+    */
    public MotoristaIndependente alterarLocalizacaoVeiculo(MotoristaIndependente mi){
        Scanner input = new Scanner(System.in);
        String aux;
@@ -772,6 +901,12 @@ public class UMeRApp
        return mi;
    }
    
+   /**
+    * Método que permite a um motorista independente ou de uma empresa de táxis alterar a sua disponibilidade para trabalhar no momento
+    * 
+    * @param mEmI   Motorista com sessão iniciada
+    * @return   O motorista 
+    */
    public Motorista alterarDisponibilidade(Motorista mEmI){
        Scanner input = new Scanner(System.in);
        String aux;
@@ -792,6 +927,9 @@ public class UMeRApp
        return mEmI;
    }
    
+   /**
+    * Método que fornece uma lista com os 10 clientes que mais dinheiro gastaram na UMeR até ao momento
+    */
    public void top10Clientes(){
        List<Cliente> cli = log.top10clientes();
        
@@ -801,6 +939,9 @@ public class UMeRApp
        }
    }
    
+   /**
+    * Método que fornece uma lista com os 5 motoristas que apresentam mais desvios entre o valor estimado e o valor real faturado nas viagens
+    */
    public void top5Motoristas(){
        List<Motorista> mot = log.top5motoristas();
        
@@ -810,6 +951,9 @@ public class UMeRApp
        }
    }
    
+   /**
+    * Menu que fornece aos utilizadores opções para aceder a determinadas informações das empresas de táxis
+    */
    public void empresas(){
        String[] s = {"Lista de Empresas.", "Listagem de Veículos de uma Empresa", "Total faturado por empresa."};
        Menu m = new Menu(s);
@@ -831,10 +975,16 @@ public class UMeRApp
        while(opt != 0);
    }
    
+   /**
+    * Método que fornece uma lista com todos os nomes das empresas de táxis registadas na aplicação
+    */
    public void listaEmpresas(){
        System.out.println("Empresas parceiras da UMeR: "+log.listagemNomesEmpresas().toString());
    }
    
+   /**
+    * Método que fornece uma lista com todos os veículos registados numa determinada empresa de táxis
+    */
    public void listaVeiculosEmpresa(){
        Scanner input = new Scanner(System.in);
        String nomeEmpresa;
@@ -853,6 +1003,9 @@ public class UMeRApp
        input.close();
    }
    
+   /**
+    * Método que fornece o total faturado por uma empresa de táxis num determinado período 
+    */
    public void totalFaturadoEmpresa(){
        Scanner input = new Scanner(System.in);
        String nomeEmpresa;
