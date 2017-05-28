@@ -1,5 +1,5 @@
 /**
- * Classe RegistoException que devolve uma mensagem caso o registo esteja incorreto
+ * Classe NenhumVeiculoDisponivelException que devolve uma mensagem caso nenhum veiculo esteja disponivel de momento
  * 
  * @author Isabel Sofia Pereira
  * @author Liliana Monteiro
@@ -12,7 +12,7 @@ public class NenhumVeiculoDisponivelException extends Exception
     */
    
    /**
-    * Método que define a mensagem caso o registo seja inválido
+    * Método que define a mensagem caso nenhum veiculo esteja disponivel de momento
     * 
     * @param msg    A mensagem a ser enviada
     */

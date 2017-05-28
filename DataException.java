@@ -1,5 +1,5 @@
  /**
- * Classe Dataxception que devolve uma mensagem caso o formato da data esteja incorreto
+ * Classe DataException que devolve uma mensagem caso o formato da data esteja incorreto
  * 
  * @author Isabel Sofia Pereira
  * @author Liliana Monteiro

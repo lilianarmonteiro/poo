@@ -1,5 +1,5 @@
  /**
- * Classe RegistoException que devolve uma mensagem caso o veiculo da empresa esteja indesponivelv
+ * Classe VeiculoEmpresaIndisponivelException que devolve uma mensagem caso o veiculo da empresa esteja indesponivel
  * 
  * @author Isabel Sofia Pereira
  * @author Liliana Monteiro
