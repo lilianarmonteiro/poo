@@ -27,7 +27,6 @@
 \date{11 de junho de 2017}
 
 
-
 \begin{document}
 \maketitle
 \tableofcontents
@@ -46,25 +45,17 @@ cliente pode, por exemplo, aceder ao seu histórico com toda a informação sobr
 
 \subsection{Classe Espaco2D}
 
+//IMAGEM ESPACO2D
+
 Na classe \textit{Espaco2D} defimos a posição \textbf{xOy} no espaço de um determinado utilizador. Deste modo, permite-nos ter a localização de um utilizador, caracteristica muito importante, visto que é através da localização que podemos calcular, por exemplo, quantos kilometros foram percorridos numa determinada viagem ou até ver qual o veículo mais próximo do cliente.
 
-\begin{figure}[ht]
-\centering
-	\includegraphics [scale =1] {espaco2D}
-	\caption {Classe Espaco2D}
-\end{figure}
-
 \subsection{Classe Utilizador}
+
+//IMAGEM UTILIZADOR
 
 A classe \textit{Utilizador} permite-nos criar a identificação de um utilizador. Aqui criamos todas as variáveis necessárias para que quer o cliente, quer o motorista sejam identificados. Para tal, temos nesta classe definidos o \textbf{email} e a \textbf{password} do utilizador, que são essenciais para que o utilizador possa fazer login na aplicação, o \textbf{nome}, a \textbf{morada} e a \textbf{data de nascimento}. \par
 Como quer os clientes, quer os motoristas necessitavam de uma identificação e de modo a evitar repetir código sem haver necessidade, criamos duas classes a \textit{Cliente} e a \textit{Motorista} por herança, isto é, que são subclasses da classe \textit{Utilizador}.
 Como na aplicação apenas criamos clientes e motoristas, a classe \textit{Utilizador} passou a ser abstracta, visto que não criavamos nenhum objeto a partir dos seus construtores, mas era necessário manter a hierarquia da herança.
-
-\begin{figure}[ht]
-\centering
-	\includegraphics [scale =1] {utilizadores}
-	\caption {Classe Utilizador}
-\end{figure}
 
 \subsubsection{Classe Motorista}
 Tal como foi referido anteriormente, a classe \textit{Motorista} é uma subclasse de \textit{Utilizador}, herdando, portanto, uma identificação. Para além disso, necessita, também de um \textbf{histórico de viagens efetuadas}, sendo para tal implementado um \textit{TreeSet}, necessita também dos \textbf{kilometros totais percorridos}, da \textbf{disponibilidade}, da \textbf{quantidade de viagens efetuadas}, de uma \textbf{classificação média} e de um \textbf{grau de cumprimento}. Todas estas informações são essenciais para o perfil do motorista.\par
@@ -78,27 +69,18 @@ A classe \textit{Cliente} é uma subclasse de \textit{Utilizador}, logo herda to
 
 \subsection{Classe Veículo}
 
-\begin{figure}[ht]
-\centering
-	\includegraphics [scale =1] {veiculo}
-	\caption {Classe Veiculo}
-\end{figure}
+//IMAGEM VEICULO
 
 A classe \textit{Veiculo}, essencialmente, permite-nos criar um veículo para que o motorista possa usar. Para efeito, necessita de \textbf{matricula}, \textbf{número de lugares}, da \textbf{velocidade média por kilometro}, do \textbf{preço médio por kilometro}, da \textbf{fiabilidade}, de uma \textbf{localização} e a \textbf{disponibilidade} do veículo. Esta última é necessária para as \textit{Empresas de Taxi} visto que temos que, de uma lista de veículos, associar um a um motorista e pô-lo indisponível para que mais nenhum motorista o possa usar ao mesmo tempo. \par
 Na \textit{UMeR} é possível haver várias classes de veículos, assim criamos, por herança, as classes \textit{Carro}, \textit{Monovolume} e \textit{Mota}. Da mesma forma que a classe \textit{Utilizador}, a classe \textit{Veículo} é abstracta, visto que, não criamos nenhum objeto a partir dos seus construtores, mas é necessária para garantir uma hierarquia de herança. Assim, elimina-se a possibilidade de erros de criação de veículos que não estão disponiveis na aplicação.\par
 Caso futuramente se queira adicionar novos tipos de veículos à aplicação, basta criar subclasses a \textit{Veiculo} com o nome do tipo desejado.
-
 
 \subsubsection{Classes Carro, Mota e Monovolume}
 As classes \textit{Carro}, \textit{Mota} e \textit{Monovolume} são subclasses de \textit{Veículo} e servem o propósito de haver várias tipos de veículos que um motorista pode utilizar.
 
 \subsection{Classe Viagem}
 
-\begin{figure}[ht]
-\centering
-	\includegraphics [scale =1] {viagem}
-	\caption {Classe Viagem}
-\end{figure}
+//IMAGEM VIAGEM
 
 Na classe \textit{Viagem} definimos todas as informações necessárias a uma viagem, como, a \textbf{data e o tempo} local, as \textbf{coordenadas no inicio da viagem}, as \textbf{coordenadas do destino}, o \textbf{veículo utilizado}, os \textbf{kms percorridos}, o \textbf{tempo, o preço real e estimado da viagem}. Aqui definimos um comparador que ordena os \textit{TreeSets} criados em \textit{Motorista} e \textit{Cliente} pela ordem das datas de modo a ser mais fácil organizar e procurar entre datas o histórico dos motoristas e dos clientes. 
 
@@ -107,11 +89,7 @@ A classe \textit{ViagemCliente} é uma subclasse de \textit{Viagem} que específ
 
 \subsection{Classe EmpresaTaxis}
 
-\begin{figure}[ht]
-\centering
-	\includegraphics [scale =1] {empresa}
-	\caption {Classe EmpresaTaxis}
-\end{figure}
+//IMAGEM EMPRESA
 
 Uma empresa de táxis, contráriamente ao que ocorre na UMeR, possui motoristas e veículos criando-os de forma independente, isto é, é possivel associar qualquer motorista a qualquer veículo. Assim a classe \textit{EmpresaTaxis} cria uma empresa com um \textbf{nome} e com dois \textit{HashMap} um para guardar os \textbf{motoristas} e outra para guardar os \textbf{veículos}. Para além disso permite-nos atualizar certos dados dos motoristas e veiculos à medida que novas viagens vão sendo realizadas por estes.
 
@@ -120,20 +98,12 @@ Uma empresa de táxis, contráriamente ao que ocorre na UMeR, possui motoristas 
 
 \subsection{Classe UMeR}
 
-\begin{figure}[ht]
-\centering
-	\includegraphics [scale =1] {Umer}
-	\caption {Classe UMeR}
-\end{figure}
+//IMAGEM UMER
 
 Com todas as classes que necessitávamos como base para o desenvolvimento da aplicação implementadas, criamos os métodos necessários na \textit{UMeR} para responderer assim ao pretendido no enunciado.\par
 Com a \textit{UMeR} temos a possibilidade de criar um novo registo para utilizadores, veículos e empresas. Tal como podemos adicionar também podemos remover, e validar o acesso de um utilizador. Além dessas funcionalidades, pode-se proceder à realização de uma nova viagem, podendo esta ser realizada chamando um veículo especifico ou o veículo mais próximo. Tendo sido a viagem realizada, é necessário calcular o tempo, e o custo real e estimado associado a esta. É possivel também aceder-se ao histórico das viagens de um utilizador, ao total faturado quer dos motoristas independentes, quer das empresas de taxis, ao top dez clientes que mais gasta, e ao top cinco dos motoristas com mais desvio entre o preço estimado para a viagem e o preço real da viagem.\par
 
-\begin{figure}[h]
-    
-	\hbox{\includegraphics[width=15cm, height=8cm]{excecoes}}
-    \caption{Exceções}
-\end{figure}
+//IMAGEM EXEÇOES
 
 Ao codificar estas funções, foi necessário que várias delas tivessem de ser criadas com exceções. Sendo assim, foram criadas as seguintes classes:
 \begin{itemize}
@@ -151,11 +121,7 @@ Ao codificar estas funções, foi necessário que várias delas tivessem de ser 
 \end{itemize} \par 
 Na função que calcula o tempo real de uma viagem, para além dos fatores aleatórios requeridos, fiabilidade do veiculo e o grau de cumprimento do motorista, foram adicionados fatores aleatórios que afetam a cidadão comum no seu dia-a-dia, nomeadamente o trânsito, a chuva, e o nevoeiro.\par
 
-\begin{figure}[ht]
-\centering
-	\includegraphics [scale =1] {tops}
-	\caption {Classes utilizadas para responder às questões dos tops}
-\end{figure}
+//IMAGEM TOPS
 
 Para responder às perguntas dos tops sentimos a necessidade de criar mais duas classes \textit{OrdenaClientes} e \textit{OrdenaMotoristas}. A primeira ordena decrescentemente os clientes pelo preço total gasto em viagens. A segunda ordena, também decrescentemente, os motoristas, podendo ser estes independentes ou pertencentes a uma empresa, pelo desvio de preços das suas viagens. Desta forma é criado nessas questões uma \textit{TreeSet} com a ordenação correspondente. De seguida é adicionado na \textit{TreeSet} os utilizadores em questão, podendo assim obter uma coleção organizada onde posteriormente apenas é necessário ir buscar os n primeiros utilizadores.\par
 Com a realização das funcionalidades requeridas para o trabalho, começamos a pensar "Se eu fosse um utilizador desta aplicação que mais é que eu gostaria de ter acesso?". Com este pensamento em mente foram implementadas funções que informam o cliente quais os veiculos disponiveis na aplicação. Assim, para além do histórico de viagens que contem os veículos já utilizados, o cliente tem a hipotese de escolher um veiculo que nunca utilizou. Além destas funções, e agora a pensar nos motoristas, foi adiciona uma função que permite mudar a sua disponibilidade pois estes não são obrigados a estar sempre disponiveis ou sempre em repouso. Para os motoristas independentes, foi ainda implementadas funções que permitem-no alterar o seu veiculo e a localização do mesmo, pois este não é um taxista, é provavelmente uma pessoa que utiliza o UMeR para ganhar dinheiro extra além de um trabalho já fixo, logo, este não pode permanecer sempre no local onde a viagem terminou, muito provavelmente vai proceguir com a sua vida pessoal.\par
@@ -163,22 +129,15 @@ Com a aplicação completamente funcional restava-nos conseguir que os dados que
 
 \subsection{Classe UMeRApp}
 
-\begin{figure}[ht]
-\centering
-	\includegraphics [scale =1] {app}
-	\caption {Classe UMeRApp}
-\end{figure}
+//IMAGEM APP
 
 A \textit{UMeRApp} é a aplicação que permite a interação com o utilizador, tendo vários menus com várias opções.
 Os menus foram gerados através da classe \textit{Menu} fornecida nas aulas.\par
 
 
 
-\begin{figure}[ht]
-\centering
-	\includegraphics [scale =1] {menu1}
-	\caption {Menu inicial}
-\end{figure}
+
+//IMAGEM menu1
 
 
 
@@ -186,49 +145,36 @@ Esta é a estrutura do menu principal, o primeiro menu que aparece quando se ini
 
 
 
-\begin{figure}[ht]
-\centering
-	\includegraphics [scale =1] {menuCliente1}
-	\caption {Menu para registo ou login de um cliente}
-\end{figure}
+//IMAGEM menuCliente1
 
 
 
 
-\newpage
+
 
 Caso o utilizador que faça login ou se registe com sucesso seja um cliente, este é direcionado para a sua area pessoal com a estrutura a cima representada.\par
 O cliente pode requerer viagens (onde posteriormente será redirecionado para um outro menu), verificar o seu histórico de viagens com a UMeR, verificar quais os veículos de Motoristas Independetes registados na aplicação, ir para o menu com dados de empresas, solicitar o top 10 clientes e o top 5 motoristas, eliminar a sua conta, ou sair da sua area pessoal.
 
 
-\begin{figure}[ht]
-\centering
-	\includegraphics [scale =1] {menuCliente2}
-	\caption {Menu de requisito de viagens}
-\end{figure}
+
+//IMAGEM menuCliente2
 
 
 
 Caso o Cliente opte por requisitar uma viagem, este tem a opção de escolher um veiculo como mostrado na imagem.
 
-\begin{figure}[ht]
-\centering
-	\includegraphics [scale =1] {menuClienteMotEmp}
-	\caption {Menu de requisito de viagens}
-\end{figure}
+
+
+//IMAGEM menuClienteMot_Emp
+
 
 
 Um dos seus outros submenus é o menu com os dados das empresas. Aqui o Cliente pode verificar quais as empresas sócias da UMeR, quais os veículos disponíveis e o total faturado por estas.
 
-\newpage
 
 
 
-\begin{figure}[ht]
-\centering
-	\includegraphics [scale =1] {menuMI}
-	\caption {Menu de um Motorista Independente}
-\end{figure}
+//IMAGEM menuMI
 
 
 
@@ -239,12 +185,7 @@ O Motorista Independente verificar o seu histórico de viagens com a UMeR, consu
 
 
 
-\begin{figure}[ht]
-\centering
-	\includegraphics [scale =1] {menuEmp}
-	\caption {Área Empresarial}
-\end{figure}
-
+//IMAGEM menuEmp
 
 
 Caso no menu principal se tenha selecionado a “Area Empresarial”, o utilizador da aplicação é redirecionado para este menu.\par
@@ -253,12 +194,7 @@ Aqui pode-se registar uma nova \textit{Empresa de Taxis}, um novo \textit{Veícu
 
 
 
-\begin{figure}[ht]
-\centering
-	\includegraphics [scale =1] {menuMot}
-	\caption {Menu do Motorista de uma Empresa de Taxis}
-\end{figure}
-
+//IMAGEM menuMot
 
 
 
@@ -269,7 +205,7 @@ O Motorista pode verificar o seu histórico de viagens, alterar a sua disponibil
 
 Assim, os utilizadores da aplicação têm cada um a sua area pessoa onde podem realizar ações ao seu dispor, tendo acesso a todos os requisitos do projeto.
 
-\newpage
+
 
 
 \section{Conclusão}
@@ -277,9 +213,9 @@ O processo de desenvolvimento da aplicação \textit{UMeR} occorreu de forma pro
 Começamos por definir as classes chave. Depois destas definidas, implementamos os requisitos básicos na UMeR tendo criado uma classe \textit{Test} onde foram sendo testadas as funções implementadas ao longo do trabalho. Tendo essa parte do trabalho concluída e algum tempo ainda em mãos, conseguimos implementar com sucesso a Empresa de Taxis e os fatores de aleatoriabilidade. No entando, com a chegada de mais trabalhos não foi possível implementar as listas de espera.\par
 
 Apesar de não termos concluido o trabalho no seu total, este foi muito importante porque tivemos a possibilidade de por em prática os conhecimentos adquiridos na unidade curricular.\par
-Tivemos de ter noções sobre classes, tendo sempre o cuidado com o encapsulamento dos dados, utilizando o \textit{clone} ao receber objetos à entrada dos métodos ou ao retornar objectos.\par
+Tivemos de ter noções sobre classes, tendo sempre o cuidado com o encapsulamento dos dados, utilizando o clone ao receber objetos à entrada dos métodos ou ao retornar objectos.\par
 Foi necessário tomar decições sobre que tipo de dados utilizar ao definir conjuntos (Listas, Sets ou Maps), tendo implementado \textit{TreeSets} e \textit{HashMaps}. Implementamos \textit{TreeSet} para podermos utilizar a interface \textit{Comparable}. Por exemplo, na ordenação dos clientes pelos gastos para responder ao top 10 clientes, e à organização das viagens por data para ser mais pratico aceder ao registo de viagens entre datas. Como nestes casos não havia necessidade de ter uma chave de procura, optamos pelo Set. O \textit{HashMap} utilizamos por exemplo na \textit{UMeR}. Assim conseguimos ter um conjunto de \textit{Utilizadores} onde a chave seria o email, e a informação da chave o utilizador em si. Utilizamos também para ter um conjunto de \textit{EmpresaTaxis} onde a chave é o nome da empresa.\par
-Para além disso, tivemos de ter noções sobre iteradores externos e internos, tendo utilizado \textit{For}, \textit{Iterator} e \textit{Stream}. Estes iteradores foram utilizados conforme consideramos que seria o ideal para a situação onde estavam a ser aplicados. A titulo de exemplo temos a utilização da \textit{Stream} para filtrar e verificar a existencia de elementos sem ter de percorrer o ciclo até ao fim.\par
+Também tivemos de ter noções sobre iteradores externos e internos, tendo utilizado \textit{For}, \textit{Iterator} e \textit{Stream}. Estes iteradores foram utilizados conforme achamos seria o melhor para a situação onde estavam a ser aplicados. Por exemplo a utilização da \textit{Stream} para filtrar e verificar a existencia de elementos sem ter de percorrer o ciclo até ao fim.\par
 Recorremos também à \textit{Herança} para reutilização de código e compatibilidade de tipos, nomeadamente na definição dos veículos. Foi utilizado também o \textit{Abstract}, a \textit{Interface}, por exemplo \textit{Serializable}, \textit{Comparator} e \textit{Comparable}, a \textit{Composição} para reutilização de código nas classes, mas que não faria sentido estarem ligadas por herança, tornando assim o código modular, e a captura de erros com \textit{Exceptions}.\par
 
 Tendo posto em prática todos estes conhecimentos, ficamos com uma melhor preparação para o teste pois ficamos a entender melhor certas partes da matéria, nomeadamente \textit{Stream}, \textit{Coleções e Maps}.
