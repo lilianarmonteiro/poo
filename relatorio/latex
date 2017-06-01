@@ -269,6 +269,18 @@ O Motorista pode verificar o seu histórico de viagens, alterar a sua disponibil
 
 Assim, os utilizadores da aplicação têm cada um a sua area pessoa onde podem realizar ações ao seu dispor, tendo acesso a todos os requisitos do projeto.
 
+
+
+\subsection{Manual de Utilização da UMeRApp}
+Na descrição da classe UMeRApp já é dada uma noção de como deve ser utilizada a aplicação. No entanto, nesta secção é dada uma explicação mais detalhada de como um utilizador deve usar a aplicação.
+
+Depois de iniciada a aplicação, o utilizador depara-se com o menu principal, onde pode escolher uma das opções listadas na secção anterior, assim o utilizador deve digitar o número correspondente à opção digitada. Caso o utilizador deseje registar-se na aplicação e tenha escolhido a opção correspondente, vão ser requisitados os seus dados pessoais, como nome, email, data de nascimento, entre outros. É fundamental que o utilizador tenha em atenção o uso de maiuscúlas e minuscúlas e, quando específicado, insira os dados no formato indicado. Sempre que aparecer instruções no formato [opção1/opção2], o utilizador deve digitar a opção pretendida exatamente como está escrita na aplicação.
+
+Quando o utilizador pede ao programa para realizar determinada instrução, após a realização dessa instrução o utilizador é reencaminhado para outro menu ou para o menu anterior. Sempre que na presença de um menu, se o utilizador desejar recuar ou sair da aplicação (no caso do menu ser o menu principal), basta digitar o número 0.
+
+A aplicação é de fácil utilização, estando bem explicados os passos a tomar nos seus menus. Quando o utilizador digita uma informação inválida, é retornada uma exceção pela aplicação e é pedido ao utilizador que digite a informação válida. O programa retorna exceções quando o utilizador tenta registar um email que já existe na base de dados, uma matrícula já registada noutro veículo, o nome de uma empresa já utilizado, dados no formato incorreto (por exemplo, se for esperado um inteiro e o utilizador digitar uma letra) e quando o utilizador tenta requisitar um veículo cuja matrícula não existe na base de dados.
+
+
 \newpage
 
 
