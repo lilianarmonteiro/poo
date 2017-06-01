@@ -170,7 +170,7 @@ Com a aplicação completamente funcional restava-nos conseguir que os dados que
 \end{figure}
 
 A \textit{UMeRApp} é a aplicação que permite a interação com o utilizador, tendo vários menus com várias opções.
-Os menus foram gerados através da classe \textit{Menu} fornecida nas aulas.\par
+Os menus foram gerados através da classe \textit{Menu} fornecida pelos docentes.\par
 
 
 
@@ -182,7 +182,7 @@ Os menus foram gerados através da classe \textit{Menu} fornecida nas aulas.\par
 
 
 
-Esta é a estrutura do menu principal, o primeiro menu que aparece quando se inicia a aplicação. Este permite o registo de novos utilizadores, perguntado pelo email, password, entre outros, ou que o utilizador já com uma conta, entre na sua area pessoal.
+Esta é a estrutura do menu principal, o primeiro menu que aparece quando se inicia a aplicação. Este permite o registo de novos utilizadores, aceder à área empresarial, onde se pode registar novas empresas e novos veículos ou motoristas numa empresa já existente, e permite que um utilizador já com uma conta entre na sua area pessoal.
 
 
 
@@ -197,7 +197,7 @@ Esta é a estrutura do menu principal, o primeiro menu que aparece quando se ini
 
 \newpage
 
-Caso o utilizador que faça login ou se registe com sucesso seja um cliente, este é direcionado para a sua area pessoal com a estrutura a cima representada.\par
+Caso o utilizador que faça login ou se registe com sucesso seja um cliente, este é direcionado para a sua area pessoal com a estrutura acima representada.\par
 O cliente pode requerer viagens (onde posteriormente será redirecionado para um outro menu), verificar o seu histórico de viagens com a UMeR, verificar quais os veículos de Motoristas Independetes registados na aplicação, ir para o menu com dados de empresas, solicitar o top 10 clientes e o top 5 motoristas, eliminar a sua conta, ou sair da sua area pessoal.
 
 
@@ -218,7 +218,7 @@ Caso o Cliente opte por requisitar uma viagem, este tem a opção de escolher um
 \end{figure}
 
 
-Um dos seus outros submenus é o menu com os dados das empresas. Aqui o Cliente pode verificar quais as empresas sócias da UMeR, quais os veículos disponíveis e o total faturado por estas.
+Um dos seus outros submenus é o menu com os dados das empresas. Aqui o Cliente pode verificar quais as empresas parceiras da UMeR, quais os veículos disponíveis e o total faturado por cada empresa.
 
 \newpage
 
@@ -234,8 +234,8 @@ Um dos seus outros submenus é o menu com os dados das empresas. Aqui o Cliente 
 
 
 
-Caso o utilizador chegue a este menu é porque é um Motorista Independente. Pode-se chegar aqui através do login ou do registo de um novo utilizador deste tipo.\par
-O Motorista Independente verificar o seu histórico de viagens com a UMeR, consultar o total por ele faturado entre datas, alterar o seu veículo, a sua localização e a sua disponibilidade. Pode ainda consultar o top 10 clientes e o top 5 motoristas, eliminar a sua conta, ou sair da sua area pessoal.
+Caso o utilizador tenha acesso a este menu é porque é um Motorista Independente. Pode-se aceder a este menu através do login ou do registo de um novo utilizador deste tipo.\par
+O Motorista Independente pode verificar o seu histórico de viagens com a UMeR, consultar o total por ele faturado entre datas, alterar o seu veículo, a sua localização e a sua disponibilidade. Pode ainda consultar o top 10 clientes e o top 5 motoristas, eliminar a sua conta, ou sair da sua area pessoal.
 
 
 
@@ -264,7 +264,7 @@ Aqui pode-se registar uma nova \textit{Empresa de Taxis}, um novo \textit{Veícu
 
 
 
-Caso se tenha criado um novo Motorista de uma Empresa de Taxis, ou este fez login na sua conta, este é enviado para esta area.\par
+Caso se tenha criado um novo Motorista de uma Empresa de Taxis, ou o Motorista faça login na sua conta, este é enviado para esta area.\par
 O Motorista pode verificar o seu histórico de viagens, alterar a sua disponibilidade, ou ir, tal como o Cliente, para o menu com os dados de empresas (já mostrado anteriormente). Pode ainda consultar o top 10 clientes e o top 5 motoristas, eliminar a sua conta, ou sair da sua area pessoal.\par
 
 Assim, os utilizadores da aplicação têm cada um a sua area pessoa onde podem realizar ações ao seu dispor, tendo acesso a todos os requisitos do projeto.
