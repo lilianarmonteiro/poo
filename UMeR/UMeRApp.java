@@ -327,7 +327,7 @@ public class UMeRApp
        boolean disponibilidade;
        
        try{
-           System.out.println("Digite o nome da empresa à qual pretende: ");
+           System.out.println("Digite o nome da empresa na qual pretende registar-se: ");
            nomeEmpresa = input.nextLine();
            
            System.out.println("Nome motorista: ");
