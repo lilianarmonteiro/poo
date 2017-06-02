@@ -1,0 +1,952 @@
+------- UMeR --------
+{Táxis Farias=Empresa Taxi: Táxis Farias
+{joseeirinha@gmail.com=MOTORISTA:
+Nome: José Eirinha	Email: joseeirinha@gmail.com	Password: JoseEirinha	Morada: Rua da Porta, nº11	Nascimento: 23-02-1993
+Historico:
+[Data e Hora: 2017-02-06T01:29
+Partida: (12.0, 3.0)
+Destino: (67.0, 32.0)
+Veiculo:
+Monovolume:
+Matricula: 14-NN-15	Numero de Lugares: 7	Velocidade Media /km: 45.0	Preco Medio /km: 5.0	Fiabilidade: 30.0	Localizacao: (67.0, 32.0)	Disponibilidade: true
+Kms da viagem: 62.0
+Tempo da viagem: 4.0
+Preco real da Viagem: 311.0
+Preco estimado da Viagem: 311.0
+, Data e Hora: 2017-06-02T01:40
+Partida: (54.0, 23.0)
+Destino: (55.0, 98.0)
+Veiculo:
+Monovolume:
+Matricula: 14-NN-15	Numero de Lugares: 7	Velocidade Media /km: 45.0	Preco Medio /km: 5.0	Fiabilidade: 30.0	Localizacao: (55.0, 98.0)	Disponibilidade: true
+Kms da viagem: 75.0
+Tempo da viagem: 4.0
+Preco real da Viagem: 376.0
+Preco estimado da Viagem: 376.0
+, Data e Hora: 2017-06-02T23:45
+Partida: (56.0, 765.0)
+Destino: (12.0, 345.0)
+Veiculo:
+Monovolume:
+Matricula: 14-NN-15	Numero de Lugares: 7	Velocidade Media /km: 45.0	Preco Medio /km: 5.0	Fiabilidade: 30.0	Localizacao: (12.0, 345.0)	Disponibilidade: true
+Kms da viagem: 422.0
+Tempo da viagem: 49.0
+Preco real da Viagem: 2117.0
+Preco estimado da Viagem: 2117.0
+, Data e Hora: 2017-06-04T12:23
+Partida: (65.0, 34.0)
+Destino: (63.0, 34.0)
+Veiculo:
+Monovolume:
+Matricula: 14-NN-15	Numero de Lugares: 7	Velocidade Media /km: 45.0	Preco Medio /km: 5.0	Fiabilidade: 30.0	Localizacao: (63.0, 34.0)	Disponibilidade: true
+Kms da viagem: 2.0
+Tempo da viagem: 0.0
+Preco real da Viagem: 10.0
+Preco estimado da Viagem: 10.0
+, Data e Hora: 2017-06-20T14:55
+Partida: (34.0, 65.0)
+Destino: (87.0, 89.0)
+Veiculo:
+Mota:
+Matricula: 11-KK-12	Numero de Lugares: 2	Velocidade Media /km: 52.0	Preco Medio /km: 2.0	Fiabilidade: 58.0	Localizacao: (87.0, 89.0)	Disponibilidade: true
+Kms da viagem: 58.0
+Tempo da viagem: 4.0
+Preco real da Viagem: 117.0
+Preco estimado da Viagem: 117.0
+]
+KmsTotal:619.0
+Disponibilidade:true
+Nr de Viagens Efetuadas:5
+Classificacao Media:57.4
+Grau de Cumprimento:68.0
+, josepedro@gmail.com=MOTORISTA:
+Nome: José Pedro	Email: josepedro@gmail.com	Password: JosePedro	Morada: Rua de Freitas, nº22	Nascimento: 04-03-1990
+Historico:
+[]
+KmsTotal:0.0
+Disponibilidade:false
+Nr de Viagens Efetuadas:0
+Classificacao Media:0.0
+Grau de Cumprimento:81.0
+, pauloduarte@gmail.com=MOTORISTA:
+Nome: Paulo Duarte	Email: pauloduarte@gmail.com	Password: PauloDuarte	Morada: Rua do Funchal, nº12	Nascimento: 17-08-1973
+Historico:
+[]
+KmsTotal:0.0
+Disponibilidade:true
+Nr de Viagens Efetuadas:0
+Classificacao Media:0.0
+Grau de Cumprimento:71.0
+, antoniooliveira@gmail.com=MOTORISTA:
+Nome: António Oliveira	Email: antoniooliveira@gmail.com	Password: AntonioOliveira	Morada: Rua do Caires, nº54	Nascimento: 28-08-1996
+Historico:
+[]
+KmsTotal:0.0
+Disponibilidade:true
+Nr de Viagens Efetuadas:0
+Classificacao Media:0.0
+Grau de Cumprimento:66.0
+, manuelcoutinho@gmail.com=MOTORISTA:
+Nome: Manuel Coutinho	Email: manuelcoutinho@gmail.com	Password: ManuelCoutinho	Morada: Rua das Águias, nº5	Nascimento: 26-07-1975
+Historico:
+[]
+KmsTotal:0.0
+Disponibilidade:false
+Nr de Viagens Efetuadas:0
+Classificacao Media:0.0
+Grau de Cumprimento:77.0
+, catarinasilva@gmail.com=MOTORISTA:
+Nome: Catarina Silva	Email: catarinasilva@gmail.com	Password: CatarinaSilva	Morada: Rua de Ruas, nº1	Nascimento: 11-11-1990
+Historico:
+[]
+KmsTotal:0.0
+Disponibilidade:true
+Nr de Viagens Efetuadas:0
+Classificacao Media:0.0
+Grau de Cumprimento:41.0
+}
+{14-NN-15=Monovolume:
+Matricula: 14-NN-15	Numero de Lugares: 7	Velocidade Media /km: 45.0	Preco Medio /km: 5.0	Fiabilidade: 30.0	Localizacao: (12.0, 345.0)	Disponibilidade: true
+, 13-MM-14=Carro:
+Matricula: 13-MM-14	Numero de Lugares: 5	Velocidade Media /km: 46.0	Preco Medio /km: 3.0	Fiabilidade: 83.0	Localizacao: (12.0, 87.0)	Disponibilidade: true
+, 11-KK-12=Mota:
+Matricula: 11-KK-12	Numero de Lugares: 2	Velocidade Media /km: 52.0	Preco Medio /km: 2.0	Fiabilidade: 58.0	Localizacao: (87.0, 89.0)	Disponibilidade: true
+, 12-LL-13=Carro:
+Matricula: 12-LL-13	Numero de Lugares: 4	Velocidade Media /km: 56.0	Preco Medio /km: 3.0	Fiabilidade: 90.0	Localizacao: (23.0, 45.0)	Disponibilidade: true
+, 12-OO-16=Carro:
+Matricula: 12-OO-16	Numero de Lugares: 5	Velocidade Media /km: 50.0	Preco Medio /km: 4.0	Fiabilidade: 58.0	Localizacao: (9.0, 42.0)	Disponibilidade: true
+}, BragaTaxis=Empresa Taxi: BragaTaxis
+{catiasilva@gmail.com=MOTORISTA:
+Nome: Cátia Silva	Email: catiasilva@gmail.com	Password: CatiaSilva	Morada: Vila da Praia, lote 34	Nascimento: 22-10-1995
+Historico:
+[Data e Hora: 2017-06-07T22:30
+Partida: (76.0, 56.0)
+Destino: (89.0, 24.0)
+Veiculo:
+Monovolume:
+Matricula: 04-DD-05	Numero de Lugares: 7	Velocidade Media /km: 45.0	Preco Medio /km: 5.0	Fiabilidade: 49.0	Localizacao: (89.0, 24.0)	Disponibilidade: true
+Kms da viagem: 35.0
+Tempo da viagem: 3.0
+Preco real da Viagem: 173.0
+Preco estimado da Viagem: 173.0
+, Data e Hora: 2017-06-15T15:35
+Partida: (43.0, 98.0)
+Destino: (347.0, 86.0)
+Veiculo:
+Carro:
+Matricula: 06-FF-07	Numero de Lugares: 5	Velocidade Media /km: 60.0	Preco Medio /km: 3.0	Fiabilidade: 61.0	Localizacao: (347.0, 86.0)	Disponibilidade: true
+Kms da viagem: 304.0
+Tempo da viagem: 11.0
+Preco real da Viagem: 914.0
+Preco estimado da Viagem: 914.0
+]
+KmsTotal:339.0
+Disponibilidade:true
+Nr de Viagens Efetuadas:2
+Classificacao Media:66.0
+Grau de Cumprimento:51.0
+, anamota@hotmail.com=MOTORISTA:
+Nome: Ana Mota	Email: anamota@hotmail.com	Password: AnaMota	Morada: Rua da Igreja, nº43	Nascimento: 16-03-1990
+Historico:
+[]
+KmsTotal:0.0
+Disponibilidade:false
+Nr de Viagens Efetuadas:0
+Classificacao Media:0.0
+Grau de Cumprimento:53.0
+, joaoantunes@hotmail.com=MOTORISTA:
+Nome: João Antunes	Email: joaoantunes@hotmail.com	Password: JoaoAntunes	Morada: Rua do Caires, nº12	Nascimento: 01-03-1967
+Historico:
+[]
+KmsTotal:0.0
+Disponibilidade:true
+Nr de Viagens Efetuadas:0
+Classificacao Media:0.0
+Grau de Cumprimento:61.0
+, jorgefreitas@hotmail.com=MOTORISTA:
+Nome: Jorge Freitas	Email: jorgefreitas@hotmail.com	Password: JorgeFreitas	Morada: Rua da Boa Nova, nº10	Nascimento: 12-12-1968
+Historico:
+[]
+KmsTotal:0.0
+Disponibilidade:false
+Nr de Viagens Efetuadas:0
+Classificacao Media:0.0
+Grau de Cumprimento:7.0
+, miguelvieira@gmail.com=MOTORISTA:
+Nome: Miguel Vieira	Email: miguelvieira@gmail.com	Password: MiguelVieira	Morada: Rua da Universidade, nº20	Nascimento: 23-02-1988
+Historico:
+[]
+KmsTotal:0.0
+Disponibilidade:true
+Nr de Viagens Efetuadas:0
+Classificacao Media:0.0
+Grau de Cumprimento:72.0
+}
+{06-FF-07=Carro:
+Matricula: 06-FF-07	Numero de Lugares: 5	Velocidade Media /km: 60.0	Preco Medio /km: 3.0	Fiabilidade: 61.0	Localizacao: (347.0, 86.0)	Disponibilidade: true
+, 05-EE-06=Monovolume:
+Matricula: 05-EE-06	Numero de Lugares: 9	Velocidade Media /km: 47.0	Preco Medio /km: 5.0	Fiabilidade: 3.0	Localizacao: (12.0, 34.0)	Disponibilidade: true
+, 03-CC-04=Carro:
+Matricula: 03-CC-04	Numero de Lugares: 5	Velocidade Media /km: 46.0	Preco Medio /km: 3.0	Fiabilidade: 12.0	Localizacao: (14.0, 16.0)	Disponibilidade: false
+, 04-DD-05=Monovolume:
+Matricula: 04-DD-05	Numero de Lugares: 7	Velocidade Media /km: 45.0	Preco Medio /km: 5.0	Fiabilidade: 49.0	Localizacao: (89.0, 24.0)	Disponibilidade: true
+, 01-AA02=Mota:
+Matricula: 01-AA02	Numero de Lugares: 2	Velocidade Media /km: 55.0	Preco Medio /km: 3.0	Fiabilidade: 41.0	Localizacao: (25.0, 56.0)	Disponibilidade: true
+, 02-BB-03=Carro:
+Matricula: 02-BB-03	Numero de Lugares: 4	Velocidade Media /km: 45.0	Preco Medio /km: 4.0	Fiabilidade: 80.0	Localizacao: (12.0, 13.0)	Disponibilidade: true
+}, Sobre Rodas=Empresa Taxi: Sobre Rodas
+{mariateixeira@hotmail.com=MOTORISTA:
+Nome: Maria Teixeira	Email: mariateixeira@hotmail.com	Password: MariaTeixeira	Morada: Rua de Lisboa, nº4	Nascimento: 16-01-1997
+Historico:
+[Data e Hora: 2017-06-03T23:30
+Partida: (87.0, 45.0)
+Destino: (87.0, 97.0)
+Veiculo:
+Carro:
+Matricula: 08-HH-09	Numero de Lugares: 5	Velocidade Media /km: 50.0	Preco Medio /km: 3.0	Fiabilidade: 55.0	Localizacao: (87.0, 97.0)	Disponibilidade: true
+Kms da viagem: 52.0
+Tempo da viagem: 2.0
+Preco real da Viagem: 156.0
+Preco estimado da Viagem: 156.0
+, Data e Hora: 2017-06-05T12:35
+Partida: (12.0, 65.0)
+Destino: (34.0, 98.0)
+Veiculo:
+Monovolume:
+Matricula: 07-GG-08	Numero de Lugares: 9	Velocidade Media /km: 45.0	Preco Medio /km: 5.0	Fiabilidade: 41.0	Localizacao: (34.0, 98.0)	Disponibilidade: true
+Kms da viagem: 40.0
+Tempo da viagem: 3.0
+Preco real da Viagem: 199.0
+Preco estimado da Viagem: 199.0
+, Data e Hora: 2017-06-05T22:25
+Partida: (23.0, 76.0)
+Destino: (78.0, 54.0)
+Veiculo:
+Carro:
+Matricula: 08-HH-09	Numero de Lugares: 5	Velocidade Media /km: 50.0	Preco Medio /km: 3.0	Fiabilidade: 55.0	Localizacao: (78.0, 54.0)	Disponibilidade: true
+Kms da viagem: 59.0
+Tempo da viagem: 4.0
+Preco real da Viagem: 178.0
+Preco estimado da Viagem: 178.0
+, Data e Hora: 2017-06-08T12:45
+Partida: (12.0, 13.0)
+Destino: (97.0, 110.0)
+Veiculo:
+Carro:
+Matricula: 08-HH-09	Numero de Lugares: 5	Velocidade Media /km: 50.0	Preco Medio /km: 3.0	Fiabilidade: 55.0	Localizacao: (97.0, 110.0)	Disponibilidade: true
+Kms da viagem: 129.0
+Tempo da viagem: 4.0
+Preco real da Viagem: 388.0
+Preco estimado da Viagem: 388.0
+, Data e Hora: 2017-06-12T16:50
+Partida: (234.0, 86.0)
+Destino: (344.0, 98.0)
+Veiculo:
+Monovolume:
+Matricula: 07-GG-08	Numero de Lugares: 9	Velocidade Media /km: 45.0	Preco Medio /km: 5.0	Fiabilidade: 41.0	Localizacao: (344.0, 98.0)	Disponibilidade: true
+Kms da viagem: 111.0
+Tempo da viagem: 18.0
+Preco real da Viagem: 556.0
+Preco estimado da Viagem: 556.0
+, Data e Hora: 2017-07-18T23:30
+Partida: (21.0, 1.0)
+Destino: (34.0, 76.0)
+Veiculo:
+Mota:
+Matricula: 09-II-10	Numero de Lugares: 2	Velocidade Media /km: 60.0	Preco Medio /km: 2.0	Fiabilidade: 95.0	Localizacao: (34.0, 76.0)	Disponibilidade: true
+Kms da viagem: 76.0
+Tempo da viagem: 3.0
+Preco real da Viagem: 153.0
+Preco estimado da Viagem: 153.0
+, Data e Hora: 2017-08-10T13:40
+Partida: (53.0, 87.0)
+Destino: (34.0, 53.0)
+Veiculo:
+Monovolume:
+Matricula: 07-GG-08	Numero de Lugares: 9	Velocidade Media /km: 45.0	Preco Medio /km: 5.0	Fiabilidade: 41.0	Localizacao: (34.0, 53.0)	Disponibilidade: true
+Kms da viagem: 39.0
+Tempo da viagem: 2.0
+Preco real da Viagem: 195.0
+Preco estimado da Viagem: 195.0
+, Data e Hora: 2017-09-10T12:30
+Partida: (98.0, 23.0)
+Destino: (76.0, 344.0)
+Veiculo:
+Monovolume:
+Matricula: 07-GG-08	Numero de Lugares: 9	Velocidade Media /km: 45.0	Preco Medio /km: 5.0	Fiabilidade: 41.0	Localizacao: (76.0, 344.0)	Disponibilidade: true
+Kms da viagem: 322.0
+Tempo da viagem: 17.0
+Preco real da Viagem: 1611.0
+Preco estimado da Viagem: 1611.0
+]
+KmsTotal:828.0
+Disponibilidade:true
+Nr de Viagens Efetuadas:8
+Classificacao Media:72.375
+Grau de Cumprimento:77.0
+, lilianamonteiro@hotmail.com=MOTORISTA:
+Nome: Liliana Monteiro	Email: lilianamonteiro@hotmail.com	Password: LilianaMonteiro	Morada: Rua de Santa Cruz, nº40	Nascimento: 12-11.1997
+Historico:
+[]
+KmsTotal:0.0
+Disponibilidade:true
+Nr de Viagens Efetuadas:0
+Classificacao Media:0.0
+Grau de Cumprimento:92.0
+, sofiapereira@hotmail.com=MOTORISTA:
+Nome: Sofia Pereira	Email: sofiapereira@hotmail.com	Password: SofiaPereira	Morada: Rua do Chile, nº44	Nascimento: 12-05-1996
+Historico:
+[]
+KmsTotal:0.0
+Disponibilidade:false
+Nr de Viagens Efetuadas:0
+Classificacao Media:0.0
+Grau de Cumprimento:66.0
+, isabelsofia@hotmail.com=MOTORISTA:
+Nome: Isabel Sofia	Email: isabelsofia@hotmail.com	Password: IsabelSofia	Morada: Rua da Porta Nova, nº12	Nascimento: 04-08-1996
+Historico:
+[]
+KmsTotal:0.0
+Disponibilidade:true
+Nr de Viagens Efetuadas:0
+Classificacao Media:0.0
+Grau de Cumprimento:90.0
+}
+{09-II-10=Mota:
+Matricula: 09-II-10	Numero de Lugares: 2	Velocidade Media /km: 60.0	Preco Medio /km: 2.0	Fiabilidade: 95.0	Localizacao: (34.0, 76.0)	Disponibilidade: true
+, 08-HH-09=Carro:
+Matricula: 08-HH-09	Numero de Lugares: 5	Velocidade Media /km: 50.0	Preco Medio /km: 3.0	Fiabilidade: 55.0	Localizacao: (87.0, 97.0)	Disponibilidade: true
+, 10-JJ-11=Mota:
+Matricula: 10-JJ-11	Numero de Lugares: 2	Velocidade Media /km: 58.0	Preco Medio /km: 2.0	Fiabilidade: 77.0	Localizacao: (39.0, 11.0)	Disponibilidade: true
+, 07-GG-08=Monovolume:
+Matricula: 07-GG-08	Numero de Lugares: 9	Velocidade Media /km: 45.0	Preco Medio /km: 5.0	Fiabilidade: 41.0	Localizacao: (344.0, 98.0)	Disponibilidade: true
+}}
+{carlosmendes@hotmail.com=MOTORISTA:
+Nome: Carlos Mendes	Email: carlosmendes@hotmail.com	Password: CarlosMendes	Morada: Rua da Nuvem, nº6	Nascimento: 23-03-1993
+Historico:
+[Data e Hora: 2017-06-03T12:30
+Partida: (54.0, 9.0)
+Destino: (23.0, 20.0)
+Veiculo:
+Monovolume:
+Matricula: 21-UU-22	Numero de Lugares: 9	Velocidade Media /km: 54.0	Preco Medio /km: 4.0	Fiabilidade: 94.0	Localizacao: (23.0, 20.0)	Disponibilidade: true
+Kms da viagem: 33.0
+Tempo da viagem: 4.0
+Preco real da Viagem: 132.0
+Preco estimado da Viagem: 132.0
+, Data e Hora: 2017-06-07T23:34
+Partida: (345.0, 76.0)
+Destino: (23.0, 97.0)
+Veiculo:
+Monovolume:
+Matricula: 21-UU-22	Numero de Lugares: 9	Velocidade Media /km: 54.0	Preco Medio /km: 4.0	Fiabilidade: 94.0	Localizacao: (23.0, 97.0)	Disponibilidade: true
+Kms da viagem: 323.0
+Tempo da viagem: 18.0
+Preco real da Viagem: 1293.0
+Preco estimado da Viagem: 1293.0
+, Data e Hora: 2017-06-15T13:42
+Partida: (45.0, 65.0)
+Destino: (87.0, 98.0)
+Veiculo:
+Monovolume:
+Matricula: 21-UU-22	Numero de Lugares: 9	Velocidade Media /km: 54.0	Preco Medio /km: 4.0	Fiabilidade: 94.0	Localizacao: (87.0, 98.0)	Disponibilidade: true
+Kms da viagem: 53.0
+Tempo da viagem: 2.0
+Preco real da Viagem: 214.0
+Preco estimado da Viagem: 214.0
+]
+KmsTotal:409.0
+Disponibilidade:true
+Nr de Viagens Efetuadas:3
+Classificacao Media:47.333333333333336
+Grau de Cumprimento:13.0
+Veiculo:
+Monovolume:
+Matricula: 21-UU-22	Numero de Lugares: 9	Velocidade Media /km: 54.0	Preco Medio /km: 4.0	Fiabilidade: 94.0	Localizacao: (23.0, 20.0)	Disponibilidade: true
+
+, augustadias@hotmail.com=MOTORISTA:
+Nome: Augusta Dias	Email: augustadias@hotmail.com	Password: AugustaDias	Morada: Rua de Sintra, nº29	Nascimento: 21-03-1973
+Historico:
+[]
+KmsTotal:0.0
+Disponibilidade:false
+Nr de Viagens Efetuadas:0
+Classificacao Media:0.0
+Grau de Cumprimento:98.0
+Veiculo:
+Carro:
+Matricula: 24-YY-25	Numero de Lugares: 4	Velocidade Media /km: 45.0	Preco Medio /km: 3.0	Fiabilidade: 88.0	Localizacao: (76.0, 45.0)	Disponibilidade: false
+
+, manuelaraujo@gmail.com=MOTORISTA:
+Nome: Manuel Araújo	Email: manuelaraujo@gmail.com	Password: ManuelAraujo	Morada: Rua do Couto, nº33	Nascimento: 10-06-1997
+Historico:
+[Data e Hora: 2017-06-02T23:47
+Partida: (43.0, 67.0)
+Destino: (87.0, 1.0)
+Veiculo:
+Monovolume:
+Matricula: 20-TT-21	Numero de Lugares: 7	Velocidade Media /km: 47.0	Preco Medio /km: 5.0	Fiabilidade: 28.0	Localizacao: (87.0, 1.0)	Disponibilidade: true
+Kms da viagem: 79.0
+Tempo da viagem: 4.0
+Preco real da Viagem: 397.0
+Preco estimado da Viagem: 397.0
+, Data e Hora: 2017-06-30T14:15
+Partida: (87.0, 4.0)
+Destino: (6.0, 1.0)
+Veiculo:
+Monovolume:
+Matricula: 20-TT-21	Numero de Lugares: 7	Velocidade Media /km: 47.0	Preco Medio /km: 5.0	Fiabilidade: 28.0	Localizacao: (6.0, 1.0)	Disponibilidade: true
+Kms da viagem: 81.0
+Tempo da viagem: 3.0
+Preco real da Viagem: 406.0
+Preco estimado da Viagem: 406.0
+]
+KmsTotal:160.0
+Disponibilidade:true
+Nr de Viagens Efetuadas:2
+Classificacao Media:51.5
+Grau de Cumprimento:96.0
+Veiculo:
+Monovolume:
+Matricula: 20-TT-21	Numero de Lugares: 7	Velocidade Media /km: 47.0	Preco Medio /km: 5.0	Fiabilidade: 28.0	Localizacao: (6.0, 1.0)	Disponibilidade: true
+
+, franciscoigreja@gmail.com=CLIENTE:
+Nome: Francisco Igreja	Email: franciscoigreja@gmail.com	Password: FranciscoIgreja	Morada: Vila da Praia, nº5	Nascimento: 30-06-1998
+
+Historico:
+[]
+, davidcunha@hotmail.com=CLIENTE:
+Nome: David Cunha	Email: davidcunha@hotmail.com	Password: DavidCunha	Morada: Rua do Fujacal, nº1	Nascimento: 10-01-1998
+
+Historico:
+[Data e Hora: 2017-06-02T09:30
+Partida: (23.0, 43.0)
+Destino: (76.0, 98.0)
+Veiculo:
+Carro:
+Matricula: 16-PP-17	Numero de Lugares: 5	Velocidade Media /km: 46.0	Preco Medio /km: 4.0	Fiabilidade: 62.0	Localizacao: (76.0, 98.0)	Disponibilidade: true
+Kms da viagem: 76.0
+Tempo da viagem: 6.0
+Preco real da Viagem: 306.0
+Preco estimado da Viagem: 306.0
+Nome do Motorista: Andreia Silva
+Classificacao Dada: 80
+, Data e Hora: 2017-06-03T23:30
+Partida: (87.0, 45.0)
+Destino: (87.0, 97.0)
+Veiculo:
+Carro:
+Matricula: 08-HH-09	Numero de Lugares: 5	Velocidade Media /km: 50.0	Preco Medio /km: 3.0	Fiabilidade: 55.0	Localizacao: (87.0, 97.0)	Disponibilidade: true
+Kms da viagem: 52.0
+Tempo da viagem: 2.0
+Preco real da Viagem: 156.0
+Preco estimado da Viagem: 156.0
+Nome do Motorista: Maria Teixeira
+Classificacao Dada: 95
+, Data e Hora: 2017-06-15T15:35
+Partida: (43.0, 98.0)
+Destino: (347.0, 86.0)
+Veiculo:
+Carro:
+Matricula: 06-FF-07	Numero de Lugares: 5	Velocidade Media /km: 60.0	Preco Medio /km: 3.0	Fiabilidade: 61.0	Localizacao: (347.0, 86.0)	Disponibilidade: true
+Kms da viagem: 304.0
+Tempo da viagem: 11.0
+Preco real da Viagem: 914.0
+Preco estimado da Viagem: 914.0
+Nome do Motorista: Cátia Silva
+Classificacao Dada: 64
+, Data e Hora: 2017-06-23T21:40
+Partida: (87.0, 546.0)
+Destino: (34.0, 21.0)
+Veiculo:
+Carro:
+Matricula: 23-XX-24	Numero de Lugares: 5	Velocidade Media /km: 55.0	Preco Medio /km: 4.0	Fiabilidade: 75.0	Localizacao: (34.0, 21.0)	Disponibilidade: true
+Kms da viagem: 528.0
+Tempo da viagem: 41.0
+Preco real da Viagem: 2115.0
+Preco estimado da Viagem: 2115.0
+Nome do Motorista: Hugo Teixeira
+Classificacao Dada: 57
+]
+, henriquevieira@hotmail.com=CLIENTE:
+Nome: Henrique Vieira	Email: henriquevieira@hotmail.com	Password: HenriqueVieira	Morada: Rua do Caires, nº9	Nascimento: 11-12-1990
+
+Historico:
+[Data e Hora: 2017-06-05T12:35
+Partida: (12.0, 65.0)
+Destino: (34.0, 98.0)
+Veiculo:
+Monovolume:
+Matricula: 07-GG-08	Numero de Lugares: 9	Velocidade Media /km: 45.0	Preco Medio /km: 5.0	Fiabilidade: 41.0	Localizacao: (34.0, 98.0)	Disponibilidade: true
+Kms da viagem: 40.0
+Tempo da viagem: 3.0
+Preco real da Viagem: 199.0
+Preco estimado da Viagem: 199.0
+Nome do Motorista: Maria Teixeira
+Classificacao Dada: 70
+, Data e Hora: 2017-06-08T12:45
+Partida: (12.0, 13.0)
+Destino: (97.0, 110.0)
+Veiculo:
+Carro:
+Matricula: 08-HH-09	Numero de Lugares: 5	Velocidade Media /km: 50.0	Preco Medio /km: 3.0	Fiabilidade: 55.0	Localizacao: (97.0, 110.0)	Disponibilidade: true
+Kms da viagem: 129.0
+Tempo da viagem: 4.0
+Preco real da Viagem: 388.0
+Preco estimado da Viagem: 388.0
+Nome do Motorista: Maria Teixeira
+Classificacao Dada: 35
+]
+, vitoriapereira@hotmail.com=CLIENTE:
+Nome: Vitória Pereira	Email: vitoriapereira@hotmail.com	Password: VitoriaPereira	Morada: Vila Nova, nº4	Nascimento: 14-06-1999
+
+Historico:
+[Data e Hora: 2017-06-07T03:45
+Partida: (34.0, 54.0)
+Destino: (120.0, 12.0)
+Veiculo:
+Monovolume:
+Matricula: 25-ZZ-26	Numero de Lugares: 9	Velocidade Media /km: 49.0	Preco Medio /km: 3.0	Fiabilidade: 38.0	Localizacao: (120.0, 12.0)	Disponibilidade: true
+Kms da viagem: 96.0
+Tempo da viagem: 9.0
+Preco real da Viagem: 288.0
+Preco estimado da Viagem: 288.0
+Nome do Motorista: José Dias
+Classificacao Dada: 89
+, Data e Hora: 2017-06-15T13:42
+Partida: (45.0, 65.0)
+Destino: (87.0, 98.0)
+Veiculo:
+Monovolume:
+Matricula: 21-UU-22	Numero de Lugares: 9	Velocidade Media /km: 54.0	Preco Medio /km: 4.0	Fiabilidade: 94.0	Localizacao: (87.0, 98.0)	Disponibilidade: true
+Kms da viagem: 53.0
+Tempo da viagem: 2.0
+Preco real da Viagem: 214.0
+Preco estimado da Viagem: 214.0
+Nome do Motorista: Carlos Mendes
+Classificacao Dada: 80
+, Data e Hora: 2017-06-20T14:55
+Partida: (34.0, 65.0)
+Destino: (87.0, 89.0)
+Veiculo:
+Mota:
+Matricula: 11-KK-12	Numero de Lugares: 2	Velocidade Media /km: 52.0	Preco Medio /km: 2.0	Fiabilidade: 58.0	Localizacao: (87.0, 89.0)	Disponibilidade: true
+Kms da viagem: 58.0
+Tempo da viagem: 4.0
+Preco real da Viagem: 117.0
+Preco estimado da Viagem: 117.0
+Nome do Motorista: José Eirinha
+Classificacao Dada: 54
+]
+, hugoteixeira@hotmail.com=MOTORISTA:
+Nome: Hugo Teixeira	Email: hugoteixeira@hotmail.com	Password: HugoTeixeira	Morada: Rua Fernando Silva, nº18	Nascimento: 21-09-1992
+Historico:
+[Data e Hora: 2017-06-23T21:40
+Partida: (87.0, 546.0)
+Destino: (34.0, 21.0)
+Veiculo:
+Carro:
+Matricula: 23-XX-24	Numero de Lugares: 5	Velocidade Media /km: 55.0	Preco Medio /km: 4.0	Fiabilidade: 75.0	Localizacao: (34.0, 21.0)	Disponibilidade: true
+Kms da viagem: 528.0
+Tempo da viagem: 41.0
+Preco real da Viagem: 2115.0
+Preco estimado da Viagem: 2115.0
+, Data e Hora: 2017-07-09T08:00
+Partida: (1.0, 4.0)
+Destino: (60.0, 15.0)
+Veiculo:
+Carro:
+Matricula: 23-XX-24	Numero de Lugares: 5	Velocidade Media /km: 55.0	Preco Medio /km: 4.0	Fiabilidade: 75.0	Localizacao: (60.0, 15.0)	Disponibilidade: true
+Kms da viagem: 60.0
+Tempo da viagem: 5.0
+Preco real da Viagem: 241.0
+Preco estimado da Viagem: 241.0
+]
+KmsTotal:588.0
+Disponibilidade:true
+Nr de Viagens Efetuadas:2
+Classificacao Media:62.5
+Grau de Cumprimento:22.0
+Veiculo:
+Carro:
+Matricula: 23-XX-24	Numero de Lugares: 5	Velocidade Media /km: 55.0	Preco Medio /km: 4.0	Fiabilidade: 75.0	Localizacao: (60.0, 15.0)	Disponibilidade: true
+
+, fernandacouto@gmail.com=CLIENTE:
+Nome: Fernanda Couto	Email: fernandacouto@gmail.com	Password: FernandaCouto	Morada: Rua do Chao, nº100	Nascimento: 05-03-1963
+
+Historico:
+[Data e Hora: 2017-06-07T23:34
+Partida: (345.0, 76.0)
+Destino: (23.0, 97.0)
+Veiculo:
+Monovolume:
+Matricula: 21-UU-22	Numero de Lugares: 9	Velocidade Media /km: 54.0	Preco Medio /km: 4.0	Fiabilidade: 94.0	Localizacao: (23.0, 97.0)	Disponibilidade: true
+Kms da viagem: 323.0
+Tempo da viagem: 18.0
+Preco real da Viagem: 1293.0
+Preco estimado da Viagem: 1293.0
+Nome do Motorista: Carlos Mendes
+Classificacao Dada: 50
+]
+, andreiasilva@hotmail.com=MOTORISTA:
+Nome: Andreia Silva	Email: andreiasilva@hotmail.com	Password: AndreiaSilva	Morada: Rua do Fujacal, nº42	Nascimento: 21-02-1960
+Historico:
+[Data e Hora: 2017-06-02T09:30
+Partida: (23.0, 43.0)
+Destino: (76.0, 98.0)
+Veiculo:
+Carro:
+Matricula: 16-PP-17	Numero de Lugares: 5	Velocidade Media /km: 46.0	Preco Medio /km: 4.0	Fiabilidade: 62.0	Localizacao: (76.0, 98.0)	Disponibilidade: true
+Kms da viagem: 76.0
+Tempo da viagem: 6.0
+Preco real da Viagem: 306.0
+Preco estimado da Viagem: 306.0
+]
+KmsTotal:76.0
+Disponibilidade:true
+Nr de Viagens Efetuadas:1
+Classificacao Media:80.0
+Grau de Cumprimento:4.0
+Veiculo:
+Carro:
+Matricula: 16-PP-17	Numero de Lugares: 5	Velocidade Media /km: 46.0	Preco Medio /km: 4.0	Fiabilidade: 62.0	Localizacao: (76.0, 98.0)	Disponibilidade: true
+
+, flaviosilva@hotmail.com=CLIENTE:
+Nome: Flávio Silva	Email: flaviosilva@hotmail.com	Password: FlavioSilva	Morada: Rua do Martelo, nº32	Nascimento: 18-05-1985
+
+Historico:
+[Data e Hora: 2017-06-02T23:47
+Partida: (43.0, 67.0)
+Destino: (87.0, 1.0)
+Veiculo:
+Monovolume:
+Matricula: 20-TT-21	Numero de Lugares: 7	Velocidade Media /km: 47.0	Preco Medio /km: 5.0	Fiabilidade: 28.0	Localizacao: (87.0, 1.0)	Disponibilidade: true
+Kms da viagem: 79.0
+Tempo da viagem: 4.0
+Preco real da Viagem: 397.0
+Preco estimado da Viagem: 397.0
+Nome do Motorista: Manuel Araújo
+Classificacao Dada: 23
+, Data e Hora: 2017-06-05T22:25
+Partida: (23.0, 76.0)
+Destino: (78.0, 54.0)
+Veiculo:
+Carro:
+Matricula: 08-HH-09	Numero de Lugares: 5	Velocidade Media /km: 50.0	Preco Medio /km: 3.0	Fiabilidade: 55.0	Localizacao: (78.0, 54.0)	Disponibilidade: true
+Kms da viagem: 59.0
+Tempo da viagem: 4.0
+Preco real da Viagem: 178.0
+Preco estimado da Viagem: 178.0
+Nome do Motorista: Maria Teixeira
+Classificacao Dada: 60
+]
+, rafaelcouto@gmail.com=MOTORISTA:
+Nome: Rafael Couto	Email: rafaelcouto@gmail.com	Password: RafaelCouto	Morada: Rua da Fábrica, nº65	Nascimento: 06-07-1987
+Historico:
+[]
+KmsTotal:0.0
+Disponibilidade:false
+Nr de Viagens Efetuadas:0
+Classificacao Media:0.0
+Grau de Cumprimento:31.0
+Veiculo:
+Carro:
+Matricula: 18-RR-19	Numero de Lugares: 5	Velocidade Media /km: 55.0	Preco Medio /km: 3.0	Fiabilidade: 1.0	Localizacao: (7.0, 65.0)	Disponibilidade: false
+
+, beatrizrodrigues@hotmail.com=CLIENTE:
+Nome: Beatriz Rodrigues	Email: beatrizrodrigues@hotmail.com	Password: BeatrizRodrigues	Morada: Casa Nova, nº13	Nascimento: 12-09-1998
+
+Historico:
+[Data e Hora: 2017-02-06T01:29
+Partida: (12.0, 3.0)
+Destino: (67.0, 32.0)
+Veiculo:
+Monovolume:
+Matricula: 14-NN-15	Numero de Lugares: 7	Velocidade Media /km: 45.0	Preco Medio /km: 5.0	Fiabilidade: 30.0	Localizacao: (67.0, 32.0)	Disponibilidade: true
+Kms da viagem: 62.0
+Tempo da viagem: 4.0
+Preco real da Viagem: 311.0
+Preco estimado da Viagem: 311.0
+Nome do Motorista: José Eirinha
+Classificacao Dada: 55
+]
+, marianabarros@hotmail.com=CLIENTE:
+Nome: Mariana Barros	Email: marianabarros@hotmail.com	Password: MarianaBarros	Morada: Rua de Espinho, nº3	Nascimento: 21-07-1993
+
+Historico:
+[Data e Hora: 2017-07-18T23:30
+Partida: (21.0, 1.0)
+Destino: (34.0, 76.0)
+Veiculo:
+Mota:
+Matricula: 09-II-10	Numero de Lugares: 2	Velocidade Media /km: 60.0	Preco Medio /km: 2.0	Fiabilidade: 95.0	Localizacao: (34.0, 76.0)	Disponibilidade: true
+Kms da viagem: 76.0
+Tempo da viagem: 3.0
+Preco real da Viagem: 153.0
+Preco estimado da Viagem: 153.0
+Nome do Motorista: Maria Teixeira
+Classificacao Dada: 90
+]
+, carlacosta@hotmail.com=CLIENTE:
+Nome: Carla Costa	Email: carlacosta@hotmail.com	Password: CarlaCosta	Morada: Rua dos Anjos. nº87	Nascimento: 21-01-1986
+
+Historico:
+[Data e Hora: 2017-06-02T01:40
+Partida: (54.0, 23.0)
+Destino: (55.0, 98.0)
+Veiculo:
+Monovolume:
+Matricula: 14-NN-15	Numero de Lugares: 7	Velocidade Media /km: 45.0	Preco Medio /km: 5.0	Fiabilidade: 30.0	Localizacao: (55.0, 98.0)	Disponibilidade: true
+Kms da viagem: 75.0
+Tempo da viagem: 4.0
+Preco real da Viagem: 376.0
+Preco estimado da Viagem: 376.0
+Nome do Motorista: José Eirinha
+Classificacao Dada: 70
+, Data e Hora: 2017-06-07T22:30
+Partida: (76.0, 56.0)
+Destino: (89.0, 24.0)
+Veiculo:
+Monovolume:
+Matricula: 04-DD-05	Numero de Lugares: 7	Velocidade Media /km: 45.0	Preco Medio /km: 5.0	Fiabilidade: 49.0	Localizacao: (89.0, 24.0)	Disponibilidade: true
+Kms da viagem: 35.0
+Tempo da viagem: 3.0
+Preco real da Viagem: 173.0
+Preco estimado da Viagem: 173.0
+Nome do Motorista: Cátia Silva
+Classificacao Dada: 68
+, Data e Hora: 2017-06-08T23:30
+Partida: (700.0, 23.0)
+Destino: (1.0, 45.0)
+Veiculo:
+Monovolume:
+Matricula: 25-ZZ-26	Numero de Lugares: 9	Velocidade Media /km: 49.0	Preco Medio /km: 3.0	Fiabilidade: 38.0	Localizacao: (1.0, 45.0)	Disponibilidade: true
+Kms da viagem: 699.0
+Tempo da viagem: 89.0
+Preco real da Viagem: 2105.0
+Preco estimado da Viagem: 2105.0
+Nome do Motorista: José Dias
+Classificacao Dada: 65
+]
+, vaniasousa@gmail.com=CLIENTE:
+Nome: Vânia Sousa	Email: vaniasousa@gmail.com	Password: VaniaSousa	Morada: Rua de Sintra, nº92	Nascimento: 14-05-1983
+
+Historico:
+[Data e Hora: 2017-06-02T23:45
+Partida: (56.0, 765.0)
+Destino: (12.0, 345.0)
+Veiculo:
+Monovolume:
+Matricula: 14-NN-15	Numero de Lugares: 7	Velocidade Media /km: 45.0	Preco Medio /km: 5.0	Fiabilidade: 30.0	Localizacao: (12.0, 345.0)	Disponibilidade: true
+Kms da viagem: 422.0
+Tempo da viagem: 49.0
+Preco real da Viagem: 2117.0
+Preco estimado da Viagem: 2117.0
+Nome do Motorista: José Eirinha
+Classificacao Dada: 78
+, Data e Hora: 2017-06-03T12:30
+Partida: (54.0, 9.0)
+Destino: (23.0, 20.0)
+Veiculo:
+Monovolume:
+Matricula: 21-UU-22	Numero de Lugares: 9	Velocidade Media /km: 54.0	Preco Medio /km: 4.0	Fiabilidade: 94.0	Localizacao: (23.0, 20.0)	Disponibilidade: true
+Kms da viagem: 33.0
+Tempo da viagem: 4.0
+Preco real da Viagem: 132.0
+Preco estimado da Viagem: 132.0
+Nome do Motorista: Carlos Mendes
+Classificacao Dada: 12
+]
+, diogobarros@gmail.com=CLIENTE:
+Nome: Diogo Barros	Email: diogobarros@gmail.com	Password: DiogoBarros	Morada: Rua da Boa Nova, nº76	Nascimento: 21-04-198
+
+Historico:
+[Data e Hora: 2017-06-30T14:15
+Partida: (87.0, 4.0)
+Destino: (6.0, 1.0)
+Veiculo:
+Monovolume:
+Matricula: 20-TT-21	Numero de Lugares: 7	Velocidade Media /km: 47.0	Preco Medio /km: 5.0	Fiabilidade: 28.0	Localizacao: (6.0, 1.0)	Disponibilidade: true
+Kms da viagem: 81.0
+Tempo da viagem: 3.0
+Preco real da Viagem: 406.0
+Preco estimado da Viagem: 406.0
+Nome do Motorista: Manuel Araújo
+Classificacao Dada: 80
+, Data e Hora: 2017-07-09T08:00
+Partida: (1.0, 4.0)
+Destino: (60.0, 15.0)
+Veiculo:
+Carro:
+Matricula: 23-XX-24	Numero de Lugares: 5	Velocidade Media /km: 55.0	Preco Medio /km: 4.0	Fiabilidade: 75.0	Localizacao: (60.0, 15.0)	Disponibilidade: true
+Kms da viagem: 60.0
+Tempo da viagem: 5.0
+Preco real da Viagem: 241.0
+Preco estimado da Viagem: 241.0
+Nome do Motorista: Hugo Teixeira
+Classificacao Dada: 68
+]
+, carolinamachado@hotmail.com=MOTORISTA:
+Nome: Carolina Machado	Email: carolinamachado@hotmail.com	Password: CarolinaMachado	Morada: Rua da Igreja, nº12	Nascimento: 07-12-1994
+Historico:
+[Data e Hora: 2015-06-03T21:30
+Partida: (21.0, 45.0)
+Destino: (65.0, 43.0)
+Veiculo:
+Mota:
+Matricula: 19-SS-20	Numero de Lugares: 2	Velocidade Media /km: 60.0	Preco Medio /km: 2.0	Fiabilidade: 37.0	Localizacao: (65.0, 43.0)	Disponibilidade: true
+Kms da viagem: 44.0
+Tempo da viagem: 4.0
+Preco real da Viagem: 89.0
+Preco estimado da Viagem: 89.0
+]
+KmsTotal:44.0
+Disponibilidade:true
+Nr de Viagens Efetuadas:1
+Classificacao Media:70.0
+Grau de Cumprimento:87.0
+Veiculo:
+Mota:
+Matricula: 19-SS-20	Numero de Lugares: 2	Velocidade Media /km: 60.0	Preco Medio /km: 2.0	Fiabilidade: 37.0	Localizacao: (65.0, 43.0)	Disponibilidade: true
+
+, marciafernandes@hotmail.com=CLIENTE:
+Nome: Márcia Fernandes	Email: marciafernandes@hotmail.com	Password: MarciaFernandes	Morada: Vila de Janeiro, nº7	Nascimento: 05-03-1958
+
+Historico:
+[]
+, josedias@gmail.com=MOTORISTA:
+Nome: José Dias	Email: josedias@gmail.com	Password: JoseDias	Morada: Rua do Carro, nº2	Nascimento: 18-06-1978
+Historico:
+[Data e Hora: 2017-06-07T03:45
+Partida: (34.0, 54.0)
+Destino: (120.0, 12.0)
+Veiculo:
+Monovolume:
+Matricula: 25-ZZ-26	Numero de Lugares: 9	Velocidade Media /km: 49.0	Preco Medio /km: 3.0	Fiabilidade: 38.0	Localizacao: (120.0, 12.0)	Disponibilidade: true
+Kms da viagem: 96.0
+Tempo da viagem: 9.0
+Preco real da Viagem: 288.0
+Preco estimado da Viagem: 288.0
+, Data e Hora: 2017-06-08T23:30
+Partida: (700.0, 23.0)
+Destino: (1.0, 45.0)
+Veiculo:
+Monovolume:
+Matricula: 25-ZZ-26	Numero de Lugares: 9	Velocidade Media /km: 49.0	Preco Medio /km: 3.0	Fiabilidade: 38.0	Localizacao: (1.0, 45.0)	Disponibilidade: true
+Kms da viagem: 699.0
+Tempo da viagem: 89.0
+Preco real da Viagem: 2105.0
+Preco estimado da Viagem: 2105.0
+]
+KmsTotal:795.0
+Disponibilidade:true
+Nr de Viagens Efetuadas:2
+Classificacao Media:77.0
+Grau de Cumprimento:31.0
+Veiculo:
+Monovolume:
+Matricula: 25-ZZ-26	Numero de Lugares: 9	Velocidade Media /km: 49.0	Preco Medio /km: 3.0	Fiabilidade: 38.0	Localizacao: (1.0, 45.0)	Disponibilidade: true
+
+, nunaramos@gomail.com=MOTORISTA:
+Nome: Nuna Ramos	Email: nunaramos@gomail.com	Password: NunaRamos	Morada: Rua de SIntra, nº25	Nascimento: 17-05-1965
+Historico:
+[]
+KmsTotal:0.0
+Disponibilidade:false
+Nr de Viagens Efetuadas:0
+Classificacao Media:0.0
+Grau de Cumprimento:81.0
+Veiculo:
+Mota:
+Matricula: 22-VV-23	Numero de Lugares: 2	Velocidade Media /km: 60.0	Preco Medio /km: 3.0	Fiabilidade: 62.0	Localizacao: (45.0, 76.0)	Disponibilidade: false
+
+, margaridacunha@gmail.com=CLIENTE:
+Nome: Margarida Cunha	Email: margaridacunha@gmail.com	Password: MargaridaCunha	Morada: Rua do Chão, nº6	Nascimento: 26-03-1996
+
+Historico:
+[]
+, luissilva@hotmail.com=MOTORISTA:
+Nome: Luis Silva	Email: luissilva@hotmail.com	Password: LuisSilva	Morada: Rua do Feijó, nº18	Nascimento: 12-05-1980
+Historico:
+[]
+KmsTotal:0.0
+Disponibilidade:false
+Nr de Viagens Efetuadas:0
+Classificacao Media:0.0
+Grau de Cumprimento:41.0
+Veiculo:
+Carro:
+Matricula: 17-QQ-18	Numero de Lugares: 4	Velocidade Media /km: 50.0	Preco Medio /km: 3.0	Fiabilidade: 8.0	Localizacao: (34.0, 56.0)	Disponibilidade: false
+
+, rodrigosilva@gmail.com=CLIENTE:
+Nome: Rodrigo Silva	Email: rodrigosilva@gmail.com	Password: RodrigoSilva	Morada: Vila de Ancora, nº21	Nascimento: 25-05-1965
+
+Historico:
+[Data e Hora: 2015-06-03T21:30
+Partida: (21.0, 45.0)
+Destino: (65.0, 43.0)
+Veiculo:
+Mota:
+Matricula: 19-SS-20	Numero de Lugares: 2	Velocidade Media /km: 60.0	Preco Medio /km: 2.0	Fiabilidade: 37.0	Localizacao: (65.0, 43.0)	Disponibilidade: true
+Kms da viagem: 44.0
+Tempo da viagem: 4.0
+Preco real da Viagem: 89.0
+Preco estimado da Viagem: 89.0
+Nome do Motorista: Carolina Machado
+Classificacao Dada: 70
+, Data e Hora: 2017-06-04T12:23
+Partida: (65.0, 34.0)
+Destino: (63.0, 34.0)
+Veiculo:
+Monovolume:
+Matricula: 14-NN-15	Numero de Lugares: 7	Velocidade Media /km: 45.0	Preco Medio /km: 5.0	Fiabilidade: 30.0	Localizacao: (63.0, 34.0)	Disponibilidade: true
+Kms da viagem: 2.0
+Tempo da viagem: 0.0
+Preco real da Viagem: 10.0
+Preco estimado da Viagem: 10.0
+Nome do Motorista: José Eirinha
+Classificacao Dada: 30
+]
+, luismiguel@hotmail.com=CLIENTE:
+Nome: Luis Miguel	Email: luismiguel@hotmail.com	Password: LuisMiguel	Morada: Vila do Porto, nº11	Nascimento: 16-02-1986
+
+Historico:
+[Data e Hora: 2017-06-12T16:50
+Partida: (234.0, 86.0)
+Destino: (344.0, 98.0)
+Veiculo:
+Monovolume:
+Matricula: 07-GG-08	Numero de Lugares: 9	Velocidade Media /km: 45.0	Preco Medio /km: 5.0	Fiabilidade: 41.0	Localizacao: (344.0, 98.0)	Disponibilidade: true
+Kms da viagem: 111.0
+Tempo da viagem: 18.0
+Preco real da Viagem: 556.0
+Preco estimado da Viagem: 556.0
+Nome do Motorista: Maria Teixeira
+Classificacao Dada: 100
+, Data e Hora: 2017-08-10T13:40
+Partida: (53.0, 87.0)
+Destino: (34.0, 53.0)
+Veiculo:
+Monovolume:
+Matricula: 07-GG-08	Numero de Lugares: 9	Velocidade Media /km: 45.0	Preco Medio /km: 5.0	Fiabilidade: 41.0	Localizacao: (34.0, 53.0)	Disponibilidade: true
+Kms da viagem: 39.0
+Tempo da viagem: 2.0
+Preco real da Viagem: 195.0
+Preco estimado da Viagem: 195.0
+Nome do Motorista: Maria Teixeira
+Classificacao Dada: 40
+, Data e Hora: 2017-09-10T12:30
+Partida: (98.0, 23.0)
+Destino: (76.0, 344.0)
+Veiculo:
+Monovolume:
+Matricula: 07-GG-08	Numero de Lugares: 9	Velocidade Media /km: 45.0	Preco Medio /km: 5.0	Fiabilidade: 41.0	Localizacao: (76.0, 344.0)	Disponibilidade: true
+Kms da viagem: 322.0
+Tempo da viagem: 17.0
+Preco real da Viagem: 1611.0
+Preco estimado da Viagem: 1611.0
+Nome do Motorista: Maria Teixeira
+Classificacao Dada: 89
+]
+}
+
