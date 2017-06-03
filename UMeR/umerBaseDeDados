@@ -324,7 +324,17 @@ Matricula: 07-GG-08	Numero de Lugares: 9	Velocidade Media /km: 45.0	Preco Medio 
 {carlosmendes@hotmail.com=MOTORISTA:
 Nome: Carlos Mendes	Email: carlosmendes@hotmail.com	Password: CarlosMendes	Morada: Rua da Nuvem, nº6	Nascimento: 23-03-1993
 Historico:
-[Data e Hora: 2017-06-03T12:30
+[Data e Hora: 2017-06-02T17:00
+Partida: (12.0, 14.0)
+Destino: (56.0, 89.0)
+Veiculo:
+Monovolume:
+Matricula: 21-UU-22	Numero de Lugares: 9	Velocidade Media /km: 54.0	Preco Medio /km: 4.0	Fiabilidade: 94.0	Localizacao: (56.0, 89.0)	Disponibilidade: true
+Kms da viagem: 87.0
+Tempo da viagem: 4.0
+Preco real da Viagem: 348.0
+Preco estimado da Viagem: 348.0
+, Data e Hora: 2017-06-03T12:30
 Partida: (54.0, 9.0)
 Destino: (23.0, 20.0)
 Veiculo:
@@ -355,14 +365,14 @@ Tempo da viagem: 2.0
 Preco real da Viagem: 214.0
 Preco estimado da Viagem: 214.0
 ]
-KmsTotal:409.0
+KmsTotal:496.0
 Disponibilidade:true
-Nr de Viagens Efetuadas:3
-Classificacao Media:47.333333333333336
+Nr de Viagens Efetuadas:4
+Classificacao Media:55.5
 Grau de Cumprimento:13.0
 Veiculo:
 Monovolume:
-Matricula: 21-UU-22	Numero de Lugares: 9	Velocidade Media /km: 54.0	Preco Medio /km: 4.0	Fiabilidade: 94.0	Localizacao: (23.0, 20.0)	Disponibilidade: true
+Matricula: 21-UU-22	Numero de Lugares: 9	Velocidade Media /km: 54.0	Preco Medio /km: 4.0	Fiabilidade: 94.0	Localizacao: (56.0, 89.0)	Disponibilidade: true
 
 , augustadias@hotmail.com=MOTORISTA:
 Nome: Augusta Dias	Email: augustadias@hotmail.com	Password: AugustaDias	Morada: Rua de Sintra, nº29	Nascimento: 21-03-1973
@@ -847,6 +857,23 @@ Veiculo:
 Monovolume:
 Matricula: 25-ZZ-26	Numero de Lugares: 9	Velocidade Media /km: 49.0	Preco Medio /km: 3.0	Fiabilidade: 38.0	Localizacao: (1.0, 45.0)	Disponibilidade: true
 
+, ricardogomes@hotmail.com=CLIENTE:
+Nome: Ricardo Gomes	Email: ricardogomes@hotmail.com	Password: RicardoGomes	Morada: Rua Nova de Santa Cruz, nº 18, S.Vicente, Braga	Nascimento: 18-03-1990
+
+Historico:
+[Data e Hora: 2017-06-02T17:00
+Partida: (12.0, 14.0)
+Destino: (56.0, 89.0)
+Veiculo:
+Monovolume:
+Matricula: 21-UU-22	Numero de Lugares: 9	Velocidade Media /km: 54.0	Preco Medio /km: 4.0	Fiabilidade: 94.0	Localizacao: (56.0, 89.0)	Disponibilidade: true
+Kms da viagem: 87.0
+Tempo da viagem: 4.0
+Preco real da Viagem: 348.0
+Preco estimado da Viagem: 348.0
+Nome do Motorista: Carlos Mendes
+Classificacao Dada: 80
+]
 , nunaramos@gomail.com=MOTORISTA:
 Nome: Nuna Ramos	Email: nunaramos@gomail.com	Password: NunaRamos	Morada: Rua de SIntra, nº25	Nascimento: 17-05-1965
 Historico:
